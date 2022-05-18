@@ -1,0 +1,25 @@
+@font-face {
+    src: url(./vendor/Inter-Regular.woff2) format('woff2'),
+        url(./vendor/Inter-Regular.woff) format('woff'),
+        url(./vendor/Inter-Regular.ttf) format('truetype'),
+        url(./vendor/Inter-Regular.eot) format('eot');
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: url(./vendor/Inter-Bold.woff2) format('woff2'),
+        url(./vendor/Inter-Bold.woff) format('woff'),
+        url(./vendor/Inter-Bold.ttf) format('truetype'),
+        url(./vendor/Inter-Bold.eot) format('eot');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url(./vendor/Inter-ExtraBold.woff2) format('woff2'),
+        url(./vendor/Inter-ExtraBold.woff) format('woff'),
+        url(./vendor/Inter-ExtraBold.ttf) format('truetype'),
+        url(./vendor/Inter-ExtraBold.eot) format('eot');
+    font-family: 'Inter';
+    font-weight: 900;
+}
