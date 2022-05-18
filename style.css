@@ -457,6 +457,7 @@
 }
 
 .place__paragraph:nth-child(1) {
+    margin-top: 0;
     width: 484px;
     grid-column-start: 2;
     grid-row-start: 2;    
