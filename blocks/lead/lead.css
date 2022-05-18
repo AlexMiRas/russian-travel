@@ -1,0 +1,33 @@
+.lead {
+    width: 984px;
+    height: 1005px;
+    margin: 136px 0 0 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .lead {
+        width: 928px;
+        height: 962px;
+        margin: 128px 0 0 48px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 321px) {
+    .lead {
+        width: 768px;
+        height: 862px;
+        margin: 128px 0 0 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead {
+        width: 320px;
+        height: 406px;
+        margin: 106px 0 0 -2px;
+    }
+}
