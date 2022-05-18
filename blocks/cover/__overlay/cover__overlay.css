@@ -4,9 +4,6 @@
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.cover__overlay {
     z-index: 10;
     opacity: 0.7;
     cursor: pointer;
