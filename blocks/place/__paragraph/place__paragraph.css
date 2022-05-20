@@ -14,8 +14,14 @@
     grid-row-start: 2;
 }
 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .place__paragraph {
+        max-width: 456px;
+    }
+}
+
 @media (max-width: 768px) and (min-width: 321px) {
-    .place__paragraph {        
+    .place__paragraph {
         max-width: 352px;
     }
 }
@@ -25,6 +31,6 @@
         max-width: 288px;
         font-size: 16px;
         grid-row-start: 4;
-        margin: 92px 48px 0 48px;
+        margin: 92px auto 0;
     }
 }
