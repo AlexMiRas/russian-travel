@@ -4,27 +4,27 @@
     justify-content: end;
     align-items: center;
     margin: 28px 0 0 48px;
+    width: 100%;
     max-width: 1184px;
     height: 52px;
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media all (max-width: 1024px) and (min-width: 769px) {
     .header {
-        min-width: 928px;
+        max-width: 928px;
     }
 }
 
-@media (max-width: 768px) and (min-width: 321px) {
+@media all (max-width: 768px) and (min-width: 321px) {
     .header {
         margin: 28px 0 0 24px;
-        width: 720px;
+        max-width: 720px;
     }
 }
 
-@media (max-width: 320px) {
+@media all (max-width: 320px) {
     .header {
         margin: 16px 0 0 16px;
-        width: 288px;
-        height: 42px;
+        max-width: 288px;       
     }
 }
