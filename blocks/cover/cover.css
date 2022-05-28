@@ -2,27 +2,16 @@
     margin: 92px auto;
     width: 100%;
     max-width: 1184px;
+    height: 740px;
+    display: flex;
     flex-direction: column;
     position: relative;
 }
 
-@media screen and  (max-width: 1024px) {
-    .cover {
-        margin: 66px auto;
-        max-width: 1024px;        
-    }
-}
-
-@media screen and  (max-width: 768px) {
-    .cover {
-        margin: 90px auto;
-        max-width: 768px;
-    }
-}
-
-@media screen and  (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .cover {
         margin: 66px auto;
         max-width: 320px;
+        height: 200px;
     }
 }
