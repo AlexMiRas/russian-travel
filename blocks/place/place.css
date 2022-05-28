@@ -3,10 +3,10 @@
     display: grid;
     grid-template-rows: repeat(2, 1fr, 1fr);
     grid-template-columns: repeat(2, 1fr, 1.5fr);
-    gap: 40px 48px;    
+    gap: 40px 48px;
 }
 
-@media (min-width: 320px) {
+@media screen and (max-width: 480px) {
     .place {
         grid-template-rows: repeat(5, 1fr, 1fr, 2fr, 2fr, 2fr);
     }

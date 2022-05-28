@@ -2,25 +2,24 @@
     margin: 92px auto 24px;
     width: 100%;
     max-width: 1184px;
-    height: 18px;
     display: flex;    
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media screen and  (max-width: 1024px) {
     .footer {
         margin: 66px auto;
         max-width: 928px;
     }
 }
 
-@media (max-width: 768px) and (min-width: 321px) {
+@media screen and  (max-width: 768px) {
     .footer {
         margin: 88px auto;
         max-width: 720px;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and  (max-width: 480px) {
     .footer {
         margin: 64px 16px 24px 118px;
         max-width: 186px;

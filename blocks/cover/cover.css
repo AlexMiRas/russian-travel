@@ -2,27 +2,25 @@
     margin: 92px auto;
     width: 100%;
     max-width: 1184px;
-    height: 740px;
-    display: flex;
     flex-direction: column;
     position: relative;
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media screen and  (max-width: 1024px) {
     .cover {
         margin: 66px auto;
         max-width: 1024px;        
     }
 }
 
-@media (max-width: 768px) and (min-width: 321px) {
+@media screen and  (max-width: 768px) {
     .cover {
         margin: 90px auto;
         max-width: 768px;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and  (max-width: 480px) {
     .cover {
         margin: 66px auto;
         max-width: 320px;
