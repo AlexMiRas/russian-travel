@@ -8,6 +8,6 @@
 
 @media (min-width: 320px) {
     .place {
-        grid-template-rows: repeat(5, 1fr, 1fr, 2fr, 2fr, 2fr);        
+        grid-template-rows: repeat(5, 1fr, 1fr, 2fr, 2fr, 2fr);
     }
 }

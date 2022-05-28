@@ -1,17 +1,17 @@
 .photo-grid__item {
     width: 100%;
     max-width: 284px;
+    object-fit: contain;
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
-    .photo-grid__item {        
+    .photo-grid__item {
         max-width: 300px;
     }
 }
 
 @media (max-width: 768px) and (min-width: 321px) {
     .photo-grid__item {
-        width: 100%;
         max-width: 352px;
     }
 }
