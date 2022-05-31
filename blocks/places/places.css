@@ -2,6 +2,7 @@
     margin: 92px auto 0;
     width: 100%;
     max-width: 984px;
+    gap: 28px 48px;
 }
 
 @media screen and (max-width: 1024px) {

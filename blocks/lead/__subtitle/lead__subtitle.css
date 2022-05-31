@@ -4,7 +4,7 @@
     max-width: 640px;
     text-align: center;
     font-size: 30px;
-    font-size: calc(28px + 2 * (100vw - 1280));
+    font-size: calc(28px + 4 * (100vw / 1280));
     font-weight: 400;
     line-height: 36px;
 }
@@ -18,8 +18,16 @@
 @media screen and (max-width: 460px) {
     .lead__subtitle {
         margin: 16px auto;
-        font-size: calc(16px + 5 * (100vw - 460));
-        line-height: 20px;
+        font-size: calc(16px + 9 * (100vw / 460));
+        line-height: calc(20px + 9 * (100vw / 460));
         max-width: 414px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .lead__subtitle {
+        margin: 16px auto;
+        font-size: calc(16px + 3 * (100vw / 460));
+        line-height: calc(20px + 3 * (100vw / 460));        
     }
 }
