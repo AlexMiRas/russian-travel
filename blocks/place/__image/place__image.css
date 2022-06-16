@@ -4,9 +4,8 @@
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 100%;
     max-width: 460px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
